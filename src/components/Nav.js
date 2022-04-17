@@ -6,7 +6,6 @@ import { isMobile } from "react-device-detect";
 const animationConfiguration = {};
 function Nav() {
   const [isActive, setisActive] = React.useState(false);
-  console.log(IsMobile());
   return (
     <section className="section">
       <header className="navbar">
