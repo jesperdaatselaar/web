@@ -1,14 +1,14 @@
 import GearItem from "./GearItem";
 
 const gear = [
-  { title: "Sony Alpha A6100", description: "Sony 16-50mm f/3.5-5.6 OSS" },
-  { title: "DJI Mini 2", description: "Sunnylife ND4-ND8-ND16-ND32" },
+  { id: 1, title: "Sony Alpha A6100", description: "Sony 16-50mm f/3.5-5.6 OSS" },
+  { id: 2, title: "DJI Mini 2", description: "Sunnylife ND4-ND8-ND16-ND32" },
 ];
 
 const gearItems = []
 
 for (let i = 0; i < gear.length; i++) {
-    gearItems.push(<GearItem title={gear[i].title} description={gear[i].description}/>)    
+    gearItems.push(<GearItem key={gear[i].id} title={gear[i].title} description={gear[i].description}/>)    
 }
 function GearSection(props) {
   return (

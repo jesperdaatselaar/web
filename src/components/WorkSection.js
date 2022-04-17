@@ -6,31 +6,37 @@ import box3 from "../img/box3.jpg";
 
 const data = [
   {
+    id: 4,
     image: { src: box1, alt: "" },
     title: "Buren, Gelderland",
     description: "Shot with DJI Mini 2",
   },
   {
+    id: 5,
     image: { src: box2, alt: "" },
     title: "Buren, Gelderland",
     description: "Shot with DJI Mini 2",
   },
   {
+    id: 6,
     image: { src: box3, alt: "" },
     title: "Buren, Gelderland",
     description: "Shot with DJI Mini 2",
   },
   {
+    id: 7,
     image: { src: box1, alt: "" },
     title: "Buren, Gelderland",
     description: "Shot with DJI Mini 2",
   },
   {
+    id: 8,
     image: { src: box3, alt: "" },
     title: "Buren, Gelderland",
     description: "Shot with DJI Mini 2",
   },
   {
+    id: 9,
     image: { src: box2, alt: "" },
     title: "Buren, Gelderland",
     description: "Shot with DJI Mini 2",

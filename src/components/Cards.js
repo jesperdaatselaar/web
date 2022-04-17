@@ -7,6 +7,7 @@ function Cards(props) {
   for (let i = 0; i < cardsData.length; i++) {
     cards.push(
       <Card
+        key={cardsData[i].id}
         image={cardsData[i].image}
         title={cardsData[i].title}
         description={cardsData[i].description}

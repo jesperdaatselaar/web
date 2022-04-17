@@ -25,3 +25,5 @@ function App() {
 }
 
 export default App;
+
+// TODO: REACT KEYS TO CARDS ETC.

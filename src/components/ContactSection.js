@@ -14,11 +14,11 @@ function Contact() {
           <p>Socials</p>
         </strong>
         <a href="">
-          <i class="fa-brands fa-instagram"></i> @jesperdaatselaar
-        </a>{" "}
+          <i className="fa-brands fa-instagram"></i> @jesperdaatselaar
+        </a>
         <br />
         <a href="">
-          <i class="fa-brands fa-twitter"></i> @jsprnl
+          <i className="fa-brands fa-twitter"></i> @jsprnl
         </a>
       </div>
     </section>
