@@ -1,9 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import IsMobile from "../hooks/isMobile";
-import { isMobile } from "react-device-detect";
 
-const animationConfiguration = {};
 function Nav() {
   const [isActive, setisActive] = React.useState(false);
   return (
