@@ -5,7 +5,7 @@ function TextSection() {
         <p>
           <strong>The person behind the camera.</strong>,
           <br />
-          `That will be me, Jesper! I'm a student from the Netherlands. I was
+          That will be me, Jesper! I'm a student from the Netherlands. I was
           born in 2003, and since a young age I always loved to capture every
           moment. But due to school, and cheap phones I never really captured
           the pictures I wanted to. In January 2021 I switched everything
