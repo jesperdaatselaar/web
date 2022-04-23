@@ -14,9 +14,7 @@ function Cards(props) {
       />
     );
   }
-  return (
-      <div className="columns is-multiline">{cards}</div>
-  );
+  return <div className="columns is-multiline">{cards}</div>;
 }
 
 export default Cards;
