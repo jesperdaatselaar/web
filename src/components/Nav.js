@@ -6,14 +6,14 @@ function Nav() {
   const [isActive, setisActive] = React.useState(false);
   return (
     <section className="section">
-      <header className="navbar">
+      <header className="navbar is-transparent">
         <div className="navbar-brand">
-          <a
+          <motion.a whileHover={{scale: 1.05}} 
             className="navbar-item has-text-weight-bold has-text-black"
             href="/"
           >
             Jesper van Daatselaar
-          </a>
+          </motion.a>
           <a
             onClick={() => {
               setisActive(!isActive);
@@ -46,18 +46,18 @@ function Nav() {
             <p className="navbar-item has-text-grey">A Dutch view on life.</p>
           </div>
           <nav className="navbar-end has-text-weight-bold">
-            <a href="#" className="navbar-item has-text-black">
+            <motion.a whileHover={{scale: 1.1}} href="#" className="navbar-item has-text-black">
               About
-            </a>
-            <a href="#" className="navbar-item has-text-black">
+            </motion.a>
+            <motion.a whileHover={{scale: 1.1}} href="#" className="navbar-item has-text-black">
               Gear
-            </a>
-            <a href="#" className="navbar-item has-text-black">
+            </motion.a>
+            <motion.a whileHover={{scale: 1.1}} href="#" className="navbar-item has-text-black">
               Work
-            </a>
-            <a href="#" className="navbar-item has-text-black">
+            </motion.a>
+            <motion.a whileHover={{scale: 1.1}} href="#" className="navbar-item has-text-black">
               Contact
-            </a>
+            </motion.a>
           </nav>
         </motion.div>
       </header>
